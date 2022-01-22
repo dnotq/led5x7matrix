@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/FPGA/led5x7matrix/ISE_LED5X7MATRIX/led_matrix_top.ncd
+OUTFILE=/home/ise/FPGA/led5x7matrix/ISE_LED5X7MATRIX/led_matrix_top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/home/ise/FPGA/led5x7matrix/ISE_LED5X7MATRIX
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/FPGA/led5x7matrix/ISE_LED5X7MATRIX/tb_led_matrix_isim_beh.exe" -prj "/home/ise/FPGA/led5x7matrix/ISE_LED5X7MATRIX/tb_led_matrix_beh.prj" "work.tb_led_matrix" 

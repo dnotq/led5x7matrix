@@ -1,0 +1,19 @@
+# Digilent Spartan-3E Starter Board
+# LED 5x7 Dot Matrix Example.
+
+NET "clk_50m0_i_net" LOC = "C9" | IOSTANDARD = LVCMOS33 ;
+NET "clk_50m0_i_net" PERIOD = 20.0ns HIGH 40%;
+
+NET "row_enables_o_net<1>" LOC = "A13" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 16 ;
+NET "row_enables_o_net<2>" LOC = "B13" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 16 ;
+NET "row_enables_o_net<3>" LOC = "A14" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 16 ;
+NET "row_enables_o_net<4>" LOC = "B14" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 16 ;
+NET "row_enables_o_net<5>" LOC = "C14" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 16 ;
+NET "row_enables_o_net<6>" LOC = "D14" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 16 ;
+NET "row_enables_o_net<7>" LOC = "A16" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 16 ;
+
+NET "row_pattern_o_net<1>" LOC = "B11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 16 ;
+NET "row_pattern_o_net<2>" LOC = "A11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 16 ;
+NET "row_pattern_o_net<3>" LOC = "A8"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 16 ;
+NET "row_pattern_o_net<4>" LOC = "G9"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 16 ;
+NET "row_pattern_o_net<5>" LOC = "C3"  | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 16 ;
